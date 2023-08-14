@@ -15,39 +15,42 @@
             </div>
         </div>
 
-        <div class="row icon-boxes">
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                            Accordion Item #1
-                        </button>
-                    </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+        <div class="row icon-boxes d-flex justify-content-center align-items-center">
+            <div class="col-10">
+                <div class="card px-0">
+                    <div class="card-header faq">
+                        <h6 class="fw-bold mb-0 py-2">Lorem ipsum dolor sit amet consectetur?</h6>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                            Accordion Item #2
-                        </button>
-                    </h2>
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                            Accordion Item #3
-                        </button>
-                    </h2>
-                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                    <div class="card-body">
+                        <p style="font-size: 13px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptates cumque eaque at esse, obcaecati nemo perspiciatis mollitia alias, accusamus asperiores. Cum laborum vel accusamus? Officia ducimus quas est praesentium.</p>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="row icon-boxes">
+            <div class="col-12 d-flex justify-content-center align-items-center">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item">
+                        <a class="page-link shadow-none" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                        </li>
+                        <li class="page-item"><a class="page-link shadow-none" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link shadow-none" href="#">2</a></li>
+                        <li class="page-item active"><a class="page-link shadow-none" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link shadow-none" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link shadow-none" href="#">5</a></li>
+                        <li class="page-item">
+                        <a class="page-link shadow-none" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </div>
+
 </section><!-- End Hero -->
